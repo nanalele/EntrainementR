@@ -1,3 +1,8 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
 My first RMarkdown 
 ==================
 
@@ -5,7 +10,7 @@ My first RMarkdown
 **Test**
 
 
-```{r}
+```{r,echo=FALSE}
 valves<-read.csv2("dataTPvalves.csv")
 str(valves)
 summary(valves)
