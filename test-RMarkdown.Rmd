@@ -1,0 +1,18 @@
+My first RMarkdown 
+==================
+
+
+**Test**
+
+
+```{r}
+valves<-read.csv2("dataTPvalves.csv")
+str(valves)
+summary(valves)
+```
+
+
+Let's make a plot.
+```{r}
+pairs(valves)
+```
